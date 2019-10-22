@@ -1,0 +1,18 @@
+---
+title: "shiny_new"
+author: "Feven Yohannes"
+date: "October 22, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+trains <- read.csv("data/train.csv")
+
+```
+
+```{r}
+trains
+```
+
